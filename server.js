@@ -11,4 +11,4 @@ const app = require("./src/app");
 const { url, port, enviroment } = require("./config/server.config");
 
 // Start the server
-app.listen(port, () => console.log(`NextGen API server started on ${enviroment}: ${url}:${port}`));
+app.listen(port, () => console.log(`Student management system API server started on ${enviroment}: ${url}:${port}`));
